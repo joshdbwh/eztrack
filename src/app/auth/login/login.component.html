@@ -5,13 +5,15 @@
       <form [formGroup]="loginForm" (ngSubmit)="handleLogin()">
         <mat-form-field appearance="outline" color="primary">
           <mat-label>Email</mat-label>
-          <input matInput formControlName="email" color="warn" required>
+          <input matInput formControlName="email" color="warn" required />
         </mat-form-field>
         <mat-form-field appearance="outline" color="primary">
           <mat-label>Password</mat-label>
-          <input matInput formControlName="password" type="password" required>
+          <input matInput formControlName="password" type="password" required />
         </mat-form-field>
-        <button mat-raised-button color="accent" type="submit" [disabled]="!loginForm.valid">Login</button>
+        <button mat-raised-button color="accent" type="submit" [disabled]="!loginForm.valid">
+          Login
+        </button>
       </form>
     </mat-card-content>
   </mat-card>

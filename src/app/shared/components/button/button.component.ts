@@ -1,10 +1,4 @@
-import {
-  Component,
-  EventEmitter,
-  Input,
-  Output,
-  ViewEncapsulation,
-} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';

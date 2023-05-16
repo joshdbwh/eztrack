@@ -25,7 +25,7 @@ $--btn-border-radius: 6px;
     background-color: $--theme-color-surface !important;
 
     &.active::after {
-      content: "";
+      content: '';
       border-bottom: 1px solid $--color-border-active;
       position: absolute;
       padding: 0;
@@ -36,13 +36,12 @@ $--btn-border-radius: 6px;
       left: 0;
       background-color: $--color-border-active;
       transition: all 0.3s ease;
-  }
+    }
 
     &:hover {
       background-color: $--color-btn-hover-bg !important;
       border: 0;
       border-radius: $--btn-border-radius;
-
     }
   }
 

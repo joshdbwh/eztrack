@@ -1,0 +1,23 @@
+@import 'src/theme/_variables.scss';
+
+mat-card {
+  background-color: $--theme-color-surface;
+  border: 1px solid $--theme-color-border;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; // This sets the gap between the form elements
+
+    .mdc-text-field--outlined {
+      color: green !important;
+    }
+  }
+}
+
+
